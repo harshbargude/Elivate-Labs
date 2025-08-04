@@ -1,6 +1,6 @@
 A JAVA CLI Calculator App.
 
-**7 features:**
+**7 features:** <br>
 1] Addition
 2] Subtraction
 3] Division
