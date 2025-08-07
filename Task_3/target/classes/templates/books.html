@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Books</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
+</head>
+<body>
+<h2>Library Books</h2>
+<div th:replace="~{fragments :: navbar}"></div>
+<div id="bookList" th:replace="~{fragments :: bookTable(books=${books})}"></div>
+<h3>Add New Book</h3>
+<div class="form-container">
+    <label>ID: <input type="number" name="bookId"></label><br>
+    <label>Title: <input type="text" name="title"></label><br>
+    <label>Author: <input type="text" name="author"></label><br>
+    <button onclick="addBook()">Add Book</button>
+</div>
+</body>
+</html>
