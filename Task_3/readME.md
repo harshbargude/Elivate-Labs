@@ -11,7 +11,7 @@ A web-based library management system built with Spring Boot, Thymeleaf, and AJA
 ## Technologies
 - Java, Spring Boot, Thymeleaf, Spring Data JPA, H2 Database
 - jQuery (for AJAX), CSS
-- Maven, VS Code
+- Maven, IntelliJ IDE
 
 ## How to Run
 1. Clone this repository.
