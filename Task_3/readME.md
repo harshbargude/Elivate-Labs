@@ -30,4 +30,4 @@ A web-based library management system built with Spring Boot, Thymeleaf, and AJA
 - Data is stored in an in-memory H2 database.
 
 ## Screenshots
-[Add screenshots of the UI, e.g., books page with updated list, issue form with AJAX response]
+added in the outputs folder
