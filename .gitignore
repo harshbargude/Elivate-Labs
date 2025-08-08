@@ -39,3 +39,16 @@ build/
 ### VS Code ###
 .vscode/
 .mvn
+
+# Node
+node_modules/
+*.log
+
+# Java
+target/
+*.class
+
+
+# OS
+Thumbs.db
+.DS_Store
